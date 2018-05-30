@@ -1,0 +1,3 @@
+targets:
+  graphcool-upload: shared-eu-west-1/cjhtn1d652lm7012050nzm91o
+  default: graphcool-upload

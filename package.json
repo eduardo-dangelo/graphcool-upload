@@ -1,13 +1,22 @@
 {
   "name": "graphcool-upload",
   "version": "0.1.0",
+  "homepage": "https://eduardo-dangelo.github.io/graphcool-upload",
   "private": true,
   "dependencies": {
+    "apollo-boost": "^0.1.7",
+    "gh-pages": "^1.1.0",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
     "react": "^16.4.0",
+    "react-apollo": "^2.1.4",
     "react-dom": "^16.4.0",
+    "react-dropzone": "^4.2.10",
     "react-scripts": "1.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
